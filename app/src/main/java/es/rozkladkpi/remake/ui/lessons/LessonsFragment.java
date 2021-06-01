@@ -48,16 +48,8 @@ public class LessonsFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-//        lessonsViewModel =
-//                new ViewModelProvider(this).get(LessonsViewModel.class);
         View root = inflater.inflate(R.layout.fragment_lessons, container, false);
         final TextView getGroupeView = root.findViewById(R.id.text_lessons_1);
-//        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-//            @Override
-//            public void onChanged(@Nullable String s) {
-//                textView.setText(s);
-//            }
-//        });
         getGroupeView.setText("Введіть групу:");
 
         final TextView entryField = root.findViewById(R.id.entry_field_lessons);

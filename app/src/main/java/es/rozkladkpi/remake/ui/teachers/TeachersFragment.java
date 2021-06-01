@@ -144,39 +144,7 @@ public class TeachersFragment extends Fragment {
                                 previousIterationDay = Integer.parseInt(lesson.getString("day_number"));
 
                             }
-//                            for (Iterator<String> it = weeks.keys(); it.hasNext(); ) {
-//                                String key = it.next();
-//                                JSONObject week = weeks.getJSONObject(key);
-//                                JSONObject days = week.getJSONObject("days");
-//                                ArrayList<String> emptylist = new ArrayList<String>();
-//                                emptylist.add("");
-//                                emptylist.add("");
-//                                emptylist.add("");
-//                                for (Iterator<String> i = days.keys(); i.hasNext(); ) {
-//                                    String keyDay = i.next();
-//                                    JSONObject day = days.getJSONObject(keyDay);
-//                                    JSONArray lessons = day.getJSONArray("lessons");
-//                                    childData = new ArrayList<ArrayList<String>>();
-//                                    int lessonCounter = 1;
-//                                    for(int j = 0; j < lessons.length();j++){
-//                                        JSONObject lesson = lessons.getJSONObject(j);
-//                                        childItems = new ArrayList<String>();
-//                                        childItems.add(lesson.getString("lesson_full_name"));
-//                                        childItems.add(lesson.getString("teacher_name"));
-//                                        childItems.add(lesson.getString("lesson_room") +" "+ lesson.getString("lesson_type"));
-//                                        if (lessonCounter == Integer.parseInt (lesson.getString("lesson_number"))){
-//                                            childData.add(childItems);
-//                                            lessonCounter++;
-//                                        }else{
-//                                            childData.add(emptylist);
-//                                            childData.add(childItems);
-//                                        }
 //
-//                                    }
-//                                    dayData.add(childData);
-//                                }
-//
-//                            }
                             list_of_buttons.setAdapter(new TeachExpListAdapter(TeachersFragment.this.getContext(), listOfTopics,dayData));
                         }catch (JSONException e){
                             e.printStackTrace();
