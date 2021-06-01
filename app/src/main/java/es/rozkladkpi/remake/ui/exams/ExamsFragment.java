@@ -25,19 +25,20 @@ public class ExamsFragment extends Fragment {
                 new ViewModelProvider(this).get(ExamsViewModel.class);
         View root = inflater.inflate(R.layout.fragment_exams, container, false);
 
-        final TextView getTeachersView = root.findViewById(R.id.text_lessons_1);
-        getTeachersView.setText("Введіть ПІБ викладача:");
+        final TextView getTeachersView = root.findViewById(R.id.text_exams_1);
+        getTeachersView.setText("Введіть групу::");
 
-        final TextView entryField = root.findViewById(R.id.entry_field_lessons);
+        final TextView entryField = root.findViewById(R.id.entry_field_exams);
+        entryField.setText("");
 
-        Button teachersButton = root.findViewById(R.id.button_lessons);
-        teachersButton.setText("Знайти розклад викладача");
+        Button teachersButton = root.findViewById(R.id.button_exams);
+        teachersButton.setText("Знайти розклад сесії");
 
         teachersButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String groupeName = entryField.getText().toString();
-                getTeachersView.setVisibility(View.GONE);
+                getTeachersView.setText("Данна функція в розробці");
                 entryField.setVisibility(View.GONE);
                 teachersButton.setVisibility(View.GONE);
             }
