@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_lessons">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="es.rozkladkpi.remake.ui.home.HomeFragment"
+        android:id="@+id/nav_lessons"
+        android:name="es.rozkladkpi.remake.ui.lessons.LessonsFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_lessons" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="es.rozkladkpi.remake.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_exams"
+        android:name="es.rozkladkpi.remake.ui.exams.ExamsFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_exams" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="es.rozkladkpi.remake.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_teachers"
+        android:name="es.rozkladkpi.remake.ui.teachers.TeachersFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_teachers" />
 </navigation>

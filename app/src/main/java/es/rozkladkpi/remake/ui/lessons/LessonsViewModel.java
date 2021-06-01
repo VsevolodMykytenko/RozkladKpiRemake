@@ -1,16 +1,16 @@
-package es.rozkladkpi.remake.ui.gallery;
+package es.rozkladkpi.remake.ui.lessons;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class LessonsViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public LessonsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Розклад на 2 тижні в розробці");
+        mText.setValue("Розклад занять");
     }
 
     public LiveData<String> getText() {
