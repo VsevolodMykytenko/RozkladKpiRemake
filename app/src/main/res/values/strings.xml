@@ -7,7 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Настройки</string>
 
-    <string name="menu_home">Розклад на тиждень</string>
-    <string name="menu_gallery">Розклад на два тижні</string>
-    <string name="menu_slideshow">Розклад з додатковими активностями</string>
+    <string name="menu_home">Розклад занять</string>
+    <string name="menu_gallery">Розклад сесії</string>
+    <string name="menu_slideshow">Розклад викладачів</string>
 </resources>
