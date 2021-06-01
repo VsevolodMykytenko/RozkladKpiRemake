@@ -73,9 +73,9 @@ __Діаграма STUDENTS-TIMETABLE__
 
 # Проектування інтерфейсу
 ## Опис структури проекту
+![structure](stracture_main.png)
+![structure](structure.png)
 ![structure](structure_1.png)
-![structure](structure_2.png)
-![structure](structure_3.png)
 ### Сторінка пошуку розкладу занять груп
 ![students](search_lessons.png)
 ### Сторінка пошуку розкладу викладачів
