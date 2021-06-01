@@ -2,8 +2,8 @@
     <string name="app_name">Rozklad Kpi Remake</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Студент</string>
-    <string name="nav_header_subtitle">Групи ІВ-91</string>
+    <string name="nav_header_title">Розклад</string>
+    <string name="nav_header_subtitle">КПІ Сікорського</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Настройки</string>
 
